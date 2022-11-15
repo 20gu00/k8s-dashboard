@@ -1,0 +1,10 @@
+go get github.com/gin-gonic/gin
+http://127.0.0.1:8888/ping
+go get k8s.io/client-go
+go get k8s.io/apimachinery
+go get k8s.io/klog/v2
+
+
+
+go run main.go -v=2(打印等级2)(设置更高等级,可以打印地等级)(不影响gin原本的输出)
+对于浏览器,即使是port不同也会跨域
